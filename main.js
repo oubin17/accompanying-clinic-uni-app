@@ -1,4 +1,5 @@
 import App from './App'
+import component from './myComponents/component.vue'
 
 // #ifndef VUE3
 import Vue from 'vue'
@@ -13,8 +14,9 @@ app.$mount()
 
 // #ifdef VUE3
 import { createSSRApp } from 'vue'
-export function createApp() {
+export function createApp () {
   const app = createSSRApp(App)
+  app.component('my-component', component)
   return {
     app
   }
