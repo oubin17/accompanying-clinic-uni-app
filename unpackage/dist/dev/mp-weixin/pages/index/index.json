@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "uni-app",
+  "navigationBarTitleText": "陪诊系统",
   "usingComponents": {
     "nav-bar": "../../components/navBar/navBar"
   }
