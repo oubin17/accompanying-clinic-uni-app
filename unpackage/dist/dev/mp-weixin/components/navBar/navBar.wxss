@@ -1,0 +1,30 @@
+.nav.data-v-fba290dc {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.back-icon.data-v-fba290dc {
+  display: flex;
+  align-items: center;
+  width: 64rpx;
+  height: 100%;
+  margin-left: 20rpx;
+}
+.back-icon image.data-v-fba290dc {
+  width: 64rpx;
+  height: 64rpx;
+}
+.navbar.data-v-fba290dc {
+  position: relative;
+}
+.nav-title.data-v-fba290dc {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.headNav.data-v-fba290dc {
+  display: flex;
+}

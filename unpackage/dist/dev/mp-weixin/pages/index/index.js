@@ -11,17 +11,14 @@ if (!Math) {
 const _sfc_main = {
   __name: "index",
   setup(__props) {
-    const data = common_vendor.ref("动态数组样例");
-    const changeData = (val) => {
-      data.value = val;
-      common_vendor.index.__f__("log", "at pages/index/index.vue:16", val);
-    };
+    const app = getApp();
+    common_vendor.onLoad(() => {
+      app.globalData.utils.getUserInfo();
+    });
     return (_ctx, _cache) => {
       return {
-        a: common_vendor.o(changeData),
-        b: common_vendor.p({
-          name: "我是navBar组件",
-          content: data.value
+        a: common_vendor.p({
+          isHome: true
         })
       };
     };

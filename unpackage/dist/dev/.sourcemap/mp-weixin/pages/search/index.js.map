@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["pages/search/index.vue?type=page"],"sourcesContent":["import MiniProgramPage from '/Users/oubin/document/HBuilderProjects/accompanying-clinic-uni-app/pages/search/index.vue'\nwx.createPage(MiniProgramPage)"],"names":[],"mappings":";;;;;;;;;;;;;;;AACA,GAAG,WAAW,eAAe;"}

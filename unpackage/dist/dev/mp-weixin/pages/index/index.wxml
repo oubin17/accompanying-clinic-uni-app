@@ -1,1 +1,1 @@
-<view class="content"><nav-bar wx:if="{{b}}" u-s="{{['d']}}" bindchangeDataEmit="{{a}}" u-i="e172bcc8-0" bind:__l="__l" u-p="{{b}}"><view>我是插槽的内容,可以传数据，也能传结构</view></nav-bar></view>
+<view class="content"><nav-bar wx:if="{{a}}" u-i="e172bcc8-0" bind:__l="__l" u-p="{{a}}"/><view style="margin-top:130rpx"></view></view>
